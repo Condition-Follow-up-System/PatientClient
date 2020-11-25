@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    tools:context=".GuideActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@mipmap/login"
+        android:scaleType="fitXY"
+        ></ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp"
+                    android:text="随身访"
+                    ></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:text="SUISHENFANG"
+                    ></TextView>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:layout_width="350dp"
+        android:id="@+id/et_card"
+        android:hint="请输入身份证号码"
+        android:layout_height="wrap_content"></EditText>
+
+    <EditText
+        android:layout_marginTop="30dp"
+        android:layout_width="350dp"
+        android:hint="请输入密码"
+        android:id="@+id/et_password"
+        android:password="true"
+        android:layout_height="wrap_content"></EditText>
+    <Button
+        android:layout_width="360dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/bt"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_bg"
+        android:text="登录"
+        android:textColor="#ffffff"
+        android:layout_height="40dp">3</Button>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="没有账号?"
+            android:textSize="17sp"
+            ></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_register"
+            android:textColor="@color/colorGreen"
+            android:textSize="17sp"
+            android:text="注册"
+            ></TextView>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

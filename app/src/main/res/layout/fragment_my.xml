@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@mipmap/login"
+        android:scaleType="fitXY"
+        ></ImageView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/lin_login"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="40dp"
+                android:id="@+id/icon"
+                android:src="@drawable/ic_fas_fa_user"
+                android:layout_height="40dp"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@id/icon"
+                    android:layout_marginLeft="10dp"
+                    android:text="点我登录"
+                    android:id="@+id/tv_name"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    ></TextView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="点我退出登录"
+                android:id="@+id/tv_outlogin"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="40dp"
+                android:textColor="#ffffff"
+                android:visibility="invisible"
+                android:textSize="20sp"
+                ></TextView>
+
+
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</LinearLayout>
