@@ -1,6 +1,6 @@
 #  随身访-患者端
 
-[点击查看原型图展示](https://modao.cc/app/4a5db54f234bf42e7855ff7fe0e0922e3089a737?simulator_type=device&sticky)
+### [点击查看原型图展示](https://modao.cc/app/4a5db54f234bf42e7855ff7fe0e0922e3089a737?simulator_type=device&sticky)
 
 #### 项目简介
 随身访是医疗智能随访平台，设计的⽬目的是利利⽤用⼈人⼯工智能技术、信息技
